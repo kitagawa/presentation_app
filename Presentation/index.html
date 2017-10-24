@@ -1,0 +1,22 @@
+<html>
+  <head></head>
+  <body>
+  
+  <video id='video' src="app_demo.mov" style="display:none;position:absolute" controls playsinline webkit-playsinline></video>
+  <button id='button' style="width: 200px;height: 200px;">play</button>
+  
+  <script type="text/javascript">
+      
+      var button = document.getElementById("button");
+      var video = document.getElementById("video");
+      
+      button.addEventListener('click', function(){
+                              video.style.display="block";
+                              video.play();
+                              }, false);
+    video.addEventListener('ended', function(){
+                            video.style.display="none";
+                            }, false)
+  </script>
+  </body>
+</html>

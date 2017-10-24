@@ -14,6 +14,8 @@
 		A2B351E91F97767300022CD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B351E71F97767300022CD5 /* LaunchScreen.storyboard */; };
 		A2B351F41F97767400022CD5 /* PresentationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B351F31F97767400022CD5 /* PresentationTests.swift */; };
 		A2B351FF1F97767400022CD5 /* PresentationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B351FE1F97767400022CD5 /* PresentationUITests.swift */; };
+		A2B352101F97833C00022CD5 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = A2B3520F1F97833C00022CD5 /* index.html */; };
+		A2DDE33F1F9A06D70007E9A0 /* app_demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = A2DDE33E1F9A06D70007E9A0 /* app_demo.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A2B351FA1F97767400022CD5 /* PresentationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B351FE1F97767400022CD5 /* PresentationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationUITests.swift; sourceTree = "<group>"; };
 		A2B352001F97767400022CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2B3520F1F97833C00022CD5 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		A2DDE33E1F9A06D70007E9A0 /* app_demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = app_demo.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				A2B351E51F97767300022CD5 /* Assets.xcassets */,
 				A2B351E71F97767300022CD5 /* LaunchScreen.storyboard */,
 				A2B351EA1F97767300022CD5 /* Info.plist */,
+				A2B3520F1F97833C00022CD5 /* index.html */,
+				A2DDE33E1F9A06D70007E9A0 /* app_demo.mov */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -235,6 +241,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2B352101F97833C00022CD5 /* index.html in Resources */,
+				A2DDE33F1F9A06D70007E9A0 /* app_demo.mov in Resources */,
 				A2B351E91F97767300022CD5 /* LaunchScreen.storyboard in Resources */,
 				A2B351E61F97767300022CD5 /* Assets.xcassets in Resources */,
 				A2B351E41F97767300022CD5 /* Main.storyboard in Resources */,
@@ -419,10 +427,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 555YXNWSHD;
 				INFOPLIST_FILE = Presentation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "planet-table.Presentation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -432,10 +442,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 555YXNWSHD;
 				INFOPLIST_FILE = Presentation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "planet-table.Presentation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -516,6 +528,7 @@
 				A2B352051F97767400022CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2B352061F97767400022CD5 /* Build configuration list for PBXNativeTarget "PresentationTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				A2B352081F97767400022CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2B352091F97767400022CD5 /* Build configuration list for PBXNativeTarget "PresentationUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				A2B3520B1F97767400022CD5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
